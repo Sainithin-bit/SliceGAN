@@ -28,7 +28,7 @@ image_type = 'nphase'
 img_channels = 3
 # define data type (for colour/grayscale images, must be 'colour' / '
 # greyscale. nphase can be, 'tif2D', 'png', 'jpg', tif3D, 'array')
-data_type = 'tif3D'
+data_type = 'jpg'
 # Path to your data. One string for isotrpic, 3 for anisotropic
 data_path = ['Examples/17AR-1_1_.jpg']
 
