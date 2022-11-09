@@ -21,8 +21,8 @@ def batch(data,type,l, sf):
             img = img[::sf,::sf]
             x_max, y_max= img.shape[:]
             phases = np.unique(img)
-            data = np.empty([32 * 900, len(phases), l, l])
-            for i in range(32 * 900):
+            data = np.empty([32 * 90, len(phases), l, l])
+            for i in range(32 * 90):
                 x = np.random.randint(1, x_max - l-1)
                 y = np.random.randint(1, y_max - l-1)
                 # create one channel per phase for one hot encoding
