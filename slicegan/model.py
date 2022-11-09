@@ -101,7 +101,7 @@ def train(pth, imtype, datatype, real_data, Disc, Gen, nc, l, nz, sf):
                 netD.zero_grad()
                 ##train on real images
                 real_data = data[0].to(device)
-                out_real = netD(real_data).view(-1).mean()
+                # out_real = netD(real_data).view(-1).mean()
                 ## train on fake images
                 # perform permutation + reshape to turn volume into batch of 2D images to pass to D
                 fake_data_perm = fake_data.permute(0, d1, 1, d2, d3).reshape(l * D_batch_size, nc, l, l)
