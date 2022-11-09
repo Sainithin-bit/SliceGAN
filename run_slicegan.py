@@ -25,7 +25,7 @@ Project_path = util.mkdr(Project_name, Project_dir, Training)
 # n-phase materials must be segmented)
 image_type = 'nphase'
 # img_channels should be number of phases for nphase, 3 for colour, or 1 for grayscale
-img_channels = 3
+img_channels = 256
 # define data type (for colour/grayscale images, must be 'colour' / '
 # greyscale. nphase can be, 'tif2D', 'png', 'jpg', tif3D, 'array')
 data_type = 'jpg'
