@@ -50,7 +50,7 @@ df, gf = [img_channels, 64, 128, 256, 512, 1], [
 dp, gp = [1, 1, 1, 1, 0], [2, 2, 2, 2, 3]
 
 ## Create Networks
-netD, netG = networks.slicegan_rc_nets(Project_path, Training, image_type, dk, ds, df,dp, gk ,gs, gf, gp)
+netD, netG = networks.slicegan_nets(Project_path, Training, image_type, dk, ds, df,dp, gk ,gs, gf, gp)
 
 # Train
 if Training:
