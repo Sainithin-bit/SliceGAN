@@ -31,7 +31,7 @@ img_channels = 3
 # greyscale. nphase can be, 'tif2D', 'png', 'jpg', tif3D, 'array')
 data_type = 'jpg'
 # Path to your data. One string for isotrpic, 3 for anisotropic
-data_path = ['/home/sai.artham.19cse/New_SliceGAN_1/SliceGAN/Examples/']
+data_path = ['/home/sai.artham.19cse/New_SliceGAN_1/SliceGAN/Examples/*.jpg']
 
 
 
